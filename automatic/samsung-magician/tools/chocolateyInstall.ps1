@@ -20,7 +20,7 @@ $packageArgs = @{
   fileType       = 'exe'
   file           = Get-Item $toolsDir\*.exe
   softwareName   = 'Samsung Magician*'
-  silentArgs     = ""
+  silentArgs     = "/SILENT"
   validExitCodes = @(0,3010)
 }
 
